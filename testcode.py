@@ -13,7 +13,8 @@ params = urllib.urlencode({
 })
 
 # Replace the example URL below with the URL of the image you want to analyze.
-body = "{ 'url': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeLsFoypwWt3WcoSdnwZ2E5MA1nNx7HOcExOudfnRWO5jVPYkkjw' }"
+body = "{ 'url': 'https://static01.nyt.com/images/2017/03/17/business/17wheels1/17wheels1-master768.jpg' }"
+
 
 try:
     conn = httplib.HTTPSConnection('westus.api.cognitive.microsoft.com')
